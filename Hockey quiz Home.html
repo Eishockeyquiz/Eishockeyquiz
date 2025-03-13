@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Hauptseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .quiz-button {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .quiz-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Willkommen zum Quiz</h1>
+    <p>Wähle ein Quiz-Thema:</p>
+
+    <h2>Schiedsrichter Quiz</h2>
+<p>Teste dein Wissen über die  Handzeichen  eines Schiedsrichters im Eishockey!</p>
+
+
+    <div class="container">
+        <button class="quiz-button" onclick="window.location.href='Hockey Nationallauge quiz.html'">Hockey Logo Quiz</button>
+        <button class="quiz-button" onclick="window.location.href='Schiedsrichter Fragen Quiz.html'">Schiedsrichter Quiz</button>
+
+        <h2>Logo Quiz</h2>
+        <p>Erkennst du das Schweizer Eishockey Team anhand ihres Logos!</p>
+        
+    
+
+    <script>
+        function startQuiz(thema) {
+            window.location.href = thema + ".html";
+        }
+    </script>
+
+<footer>
+    <p>&copy; 2025 Eishockey Quiz | <a href="mailto:support@eishockeyquiz.com">Support</a></p>
+</footer>
+
+<style>
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #e0e0e0; /* Dunkleres Weiß */
+        text-align: center;
+        padding: 12px;
+        font-size: 14px;
+        border-top: 2px solid #ccc; /* Dezente Trennlinie */
+        color: #333; /* Dunklere Schrift für bessere Lesbarkeit */
+    }
+    footer a {
+        color: #0073e6; /* Blaue Farbe für den Support-Link */
+        text-decoration: none;
+        font-weight: bold;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<footer>
+    <p>&copy; 2025 Eishockey Quiz | <a href="impressum.html">Impressum</a> | <a href="mailto:support@eishockeyquiz.com">Support</a></p>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
